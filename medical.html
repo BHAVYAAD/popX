@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="medicalstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> EXAMINAR </title>
+</head>
+<body style="margin: 60px;">
+
+<div id="menu">
+<a href="index.html">SPACE &nbsp;</a>
+<a href="S.ABOUTUS.html">ABOUT US &nbsp; </a>
+<a href="SKILLS.html">SKILLS &nbsp;</a>
+<a href="medical.html">EXAMINAR &nbsp;</a>
+<a href="CONTACT.html">CONTACT US &nbsp; </a>
+
+</div> <br>
+
+<DIV CLASS="HEADER" ID="HEADER" >
+    <BR>
+        <BR>  
+            <BR>
+                <BR>
+                    <BR>
+                        <BR>
+                            <BR>
+                                <BR>
+<h1 style="color: black; font-size: 70PX; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> EXAMINAR</h1>
+<P style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30PX"> A CHECK ON YOU</P>
+</DIV>
+<BR>
+    <BR>
+        <BR>
+<H2 Style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 32PX">YOUR SPACE STYLE</H2>
+<P style="color: white;">Providing you Styles to choose from when done with selection for the mission. <br> Customize your style according to your preferences</P>
+
+
+<div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img_woods_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img_5terre_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+    </div>
+      
+
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="ss1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="THE SILVER LIGHT">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="ss2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="THE GREY STONEX">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="ss3.jpeg" style="width:100%" onclick="currentSlide(3)" alt=" THE CLASSIC WHITE">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="ss4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="THE DARK FIRE">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="ss5.jpeg" style="width:100%" onclick="currentSlide(5)" alt="THE ROBOQ DASH ">
+      </div>   
+    </div>
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  <BR>
+    <BR>
+        <BR>
+            <BR>
+                <BR>
+  
+  <H2 Style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 34PX">MEDICAL EXAMINATION</H2>
+<P style="color: white;">A medical examination is required for us to carry on your recruitement in the best conditions allowed.
+    <br> POP-X takes responsibility for their employer's health and to provide their employers with the best of health benefits ,<BR> our team of medical experts examine the health >charts and would need to run some more tests further this one MEDiCAL EXAMINATION FORM.</P>
+    <br> 
+   
+    <h3 style="color: white;">THE NEXT STEP</h3>
+<p style="color: white;">After passing thses medical conditions, The team would run a coiple test on the employers selected for THE MISSION. <br> The results will always be kept confidential and POP-X promises to carry the transparency between their staff and workers to mainttain the team trust. </p>
+
+<BR>
+    <BR> 
+        
+    "<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXx-d9riP94I6sGiE4jMY8NmMaepmrss1KXJMERI_BCi4UUg/viewform?embedded=true" width="640" height="1902" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>"
+<br>
+
+<div class="footer" ID="footer">
+  <br>
+<p style="font-size: 24px;"> POP-X</p>
+<p style="font-size: 15px;">THE REVOLUTIONARY ORGANIZATION </p>
+<ul style="list-style-type:none;">
+ <li>Phone: 604.372.2083</li>
+ </ul>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+</div>  
+
+
+
+</body>
+</html>

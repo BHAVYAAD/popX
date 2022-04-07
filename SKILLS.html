@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="SKILLSTYLE.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>SKILLS</title>
+</head>
+<body>
+<div id="menu">
+<a href="index.html">SPACE &nbsp; </a>
+<a href="S.ABOUTUS.html">ABOUT US &nbsp; </a>
+<a href="SKILLS.html">SKILLS &nbsp; </a>
+<a href="medical.html">EXAMINAR &nbsp;</a>
+<a href="CONTACT.html">CONTACT US &nbsp;</a>
+</div> <br>
+
+
+
+<DIV CLASS="HEADER" ID="HEADER" >
+    <BR>
+        <BR>  
+            <BR>
+                <BR>
+                    <BR>
+                        <BR>
+                        
+<H1 style="color: WHITE; font-size: 70PX; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> DO YOU HAVE </H1>
+<P style="color: WHITE; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30PX;">WHAT IT TAKES</P>
+</DIV>
+<br>
+<br>
+<h2 style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 32PX;">SHOW US YOUR CAPABILITIES AND DEDICATION TO OUR ORGANISTAION</h2>
+
+<H3 style="color: white; font-size: 24PX;"> BECOME A PART OF POP-X</H3>
+<P style="color: white; font-size: 15PX;">POP-X is looking for world class talent ready to tackle challenging projects that will ultimately enable <br>
+    life on other planets. We are an equal opportunity employer offering competitive salaries,<br> comprehensive health benefits and equity packages. </p>
+
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="SEARCH CAREERS.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">FOOD SERVICES</a></li>
+  <li><a href="#">MANUFACTURING AND PRODUCTION </a></li>
+
+  <li><a href="#">SOFTWARE DEVELOPMENT</a></li>
+  <li><a href="#">MEDICAL AND HEALTHCARE</a></li>
+
+  <li><a href="#">FINANCES</a></li>
+  <li><a href="#">INFORMATION TECHNOLOGY</a></li>
+  <li><a href="#">SPACE OPERATIONS</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+
+  
+
+<img src="SpaceXh.jpeg" id="sxh"> 
+<br> 
+<h4 style="color: white; font-size:30px;"> MAKE AN IMPACT</h4>
+<p style="color: white; font-size: 15px;">On a daily basis, SpaceX employees work on programs and projects with the potential to notably <br>impact our lives on Earth and beyond the stars. From rocket reusability to global broadband networks<br> to developing interplanetary transportation systems, our employees take pride in solving hard problems <br>that can have tangible impacts on our future in space.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="footer" ID="footer">
+  <br>
+<p style="font-size: 24px;"> POP-X</p>
+<p style="font-size: 15px;">THE REVOLUTIONARY ORGANIZATION </p>
+<ul style="list-style-type:none;">
+ <li>Phone: 604.372.2083</li>
+ </ul>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+</div>  
+
+
+</body>
+</html>

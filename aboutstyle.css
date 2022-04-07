@@ -1,0 +1,101 @@
+body {font-family: Verdana, sans-serif;
+background-color: black;
+margin: 60px;}  
+
+#bhavya{
+    color: white;
+    text-size-adjust: 70PX;
+    align-items: center;}
+
+ 
+#header {
+    position: relative;
+    left: 0;
+    bottom:0 ;
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    text-size-adjust: 100px;
+    background-image: url(https://cms.qz.com/wp-content/uploads/2021/01/SpaceX-rideshare-OTV-Sherpa-Spaceflight-Rocket-Lab-Momentus.jpg?quality=75&strip=all&w=3200&h=1800) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        text-size-adjust: 90px;
+      }
+      a:visited {
+        color: grey;
+        background-color: transparent;
+        text-decoration: none;
+      
+      }
+      a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;}
+
+        .footer {
+          position: relative;
+          left: 0;
+          bottom:0 ;
+          width: 100%;
+          height: 650px;
+          background-color: black;
+          color: white;
+          text-align: center; 
+          background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2020/09/andrew-mccarthy-high-definition-moon-1.jpg) ;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;}
+
+          .fa {
+            padding: 20px;
+            font-size: 90px;
+            width: 80px;
+            height: 90px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 80%;
+          }
+          
+          .fa:hover {
+              opacity: 50;
+          }
+          
+          .fa-facebook {
+            background: #3B5998;
+            color: black;
+          }
+          
+          .fa-twitter {
+            background: #55ACEE;
+            color: black;
+          }
+          
+          .fa-google {
+            background: #dd4b39;
+            color: black;
+          }
+          
+          .fa-linkedin {
+            background: #007bb5;
+            color: black;
+          }
+          
+          .fa-youtube {
+            background: #bb0000;
+            color: black;
+          }
+          
+          .fa-instagram {
+            background: #125688;
+            color: black;
+          }
+          

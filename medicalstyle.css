@@ -1,0 +1,199 @@
+body {font-family: Verdana, sans-serif;
+    background-color: black;
+  margin: 60PX;}  
+  
+  body{margin: 60px;}
+      
+    #menu {color: white;
+        text-size-adjust: 70PX;
+        align-items: center;}
+
+
+    #HEADER {
+        position: relative;
+        left: 0;
+        bottom:0 ;
+        width: 100%;
+        height: 650px;
+        background-color: black;
+        color: white;
+        text-align: center; 
+        text-align-last: center;
+        text-size-adjust: 100px;
+        background-image: url(https://ychef.files.bbci.co.uk/1600x900/p07yd4bb.webp) ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;} 
+    
+        a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            text-size-adjust: 90px;
+            text-align: center;
+          }
+          a:visited {
+            color: grey;
+            background-color: transparent;
+            text-decoration: none;
+          
+          }
+          a:hover {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;}
+
+
+            .footer {
+              position: relative;
+              left: 0;
+              bottom:0 ;
+              width: 100%;
+              height: 650px;
+              background-color: black;
+              color: white;
+              text-align: center; 
+              background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2020/09/andrew-mccarthy-high-definition-moon-1.jpg) ;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;}
+
+              body {
+                font-family: Arial;
+                margin: 0;
+              }
+              
+              * {
+                box-sizing: border-box;
+              }
+              
+              img {
+                vertical-align: middle;
+              }
+              
+              /* Position the image container (needed to position the left and right arrows) */
+              .container {
+                position: relative;
+              }
+              
+              /* Hide the images by default */
+              .mySlides {
+                display: none;
+              }
+              
+              /* Add a pointer when hovering over the thumbnail images */
+              .cursor {
+                cursor: pointer;
+              }
+              
+              /* Next & previous buttons */
+              .prev,
+              .next {
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+              }
+              
+              /* Position the "next button" to the right */
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover,
+              .next:hover {
+                background-color:black;
+              }
+              
+              /* Number text (1/3 etc) */
+              .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              /* Container for image text */
+              .caption-container {
+                text-align: center;
+                background-color: black;
+                padding: 2px 16px;
+                color: white;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Six columns side by side */
+              .column {
+                float: left;
+                width: 16.66%;
+              }
+              
+              .demo {
+                opacity: 0.6;
+              }
+              
+              .active,
+              .demo:hover {
+                opacity: 1;
+              }
+              .fa {
+                padding: 20px;
+                font-size: 90px;
+                width: 80px;
+                height: 90px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 80%;
+              }
+              
+              .fa:hover {
+                  opacity: 50;
+              }
+              
+              .fa-facebook {
+                background: #3B5998;
+                color: black;
+              }
+              
+              .fa-twitter {
+                background: #55ACEE;
+                color: black;
+              }
+              
+              .fa-google {
+                background: #dd4b39;
+                color: black;
+              }
+              
+              .fa-linkedin {
+                background: #007bb5;
+                color: black;
+              }
+              
+              .fa-youtube {
+                background: #bb0000;
+                color: black;
+              }
+              
+              .fa-instagram {
+                background: #125688;
+                color: black;
+              }
+              
